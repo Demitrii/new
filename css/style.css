@@ -261,3 +261,44 @@ h1 {
    filter: brightness(1) grayscale(0);
     transform: scale(1.1);
 }
+.blok-horses-wrapper {
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+  
+
+.blok-horses-heading {
+   text-align: center;
+   width: 100%;
+   margin-top: 50px;
+   font-family: Philosopher;
+}
+.blok-horses-icon {
+   margin: 50px;
+   background-color: #FFFFFF;
+   border: 1px solid #eaeaea;
+   border-radius: 5px;
+   width: 270px;
+   height: 430px;
+   left: 376px;
+   box-shadow: 0px 14px 30px rgb(0, 0, 0, 0.07);
+}
+.blok-horses-img {
+   position: relative;
+  width: 190px;
+  height: 300px;
+  left: 6px;
+  top: -25px;
+  border-radius: 5px;
+  text-transform: capitalize;
+ 
+}
+.blok-horses-text {
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   align-content: center;
+   font-size: 15px;
+   font-family: Philosopher;
+}
