@@ -302,3 +302,12 @@ h1 {
    font-size: 15px;
    font-family: Philosopher;
 }
+.form {
+   background-image: url(../img/forms.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   min-height: 600px;
+   width: 100%;
+}
