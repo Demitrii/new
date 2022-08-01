@@ -147,7 +147,7 @@
                </div>
                <div class="blok-direction-container">
                   <div class="blok-direction-icon">
-                     <img class="blok-direction-img" src="img/unsplash_9h_bJdGqzCk.png" alt="">
+                     <img class="blok-direction-img" src="img/15.png" alt="">
                      <h4 class="blok-direction-text">
                         Уроки верховой езды
                      </h4>
@@ -169,7 +169,7 @@
                      </p>
                   </div>
                   <div class="blok-direction-icon">
-                     <img class="blok-direction-img" src="img/unsplash_9h_bJdGqzCk.png" alt="">
+                     <img class="blok-direction-img" src="img/16.png" alt="">
                      <h4 class="blok-direction-text">
                         Фотосессии
                      </h4>
@@ -293,13 +293,79 @@
                </div>
                </div>
             </div>
-            <form class="form">
-               <div class="blok-wrapper">
-                  <div class="blok-wrapper-forms">
-                     
-                  </div>
-               </div>
-            </form>
+                   <div class="wrapper">
+                     <form class="form">
+                           <div>
+                              <label>
+                                  <span>Nik</span>
+                                  <input type="text" id="nik" name="userNik" placeholder="Nik" />
+                              </label>
+                              </div>
+                              <div>
+                                  <label>
+                                      <span>Email</span>
+                                      <input type="text" id="email" name="userEmail"  placeholder="Email" />
+                                  </label>
+                              </div>
+                              <div>
+                                  <label>
+                                      <span>Date of birth</span>
+                                      <input type="date" name="birthday" id="userBrithday" />
+                                  </label>
+                              </div>
+                              <fieldset>
+                                  <legend>
+                                      Specify your gender
+                                  </legend>
+                                  <ul>
+                                      <div>
+                                          <label>
+                                          <span>Men</span>
+                                          <input type="radio" id="men" name="userMen" value="men">
+                                          </label>
+                                      </div>
+                                      <div>
+                                          <label>
+                                          <span>Woman</span>
+                                          <input type="radio" id="woman" name="userWoman" value="woman">
+                                          </label>
+                                      </div>
+                                  </ul>
+                              </fieldset>
+                              <div>
+                                  <label>
+                                      <span>Coutry</span>
+                                      <input type="text" name="conutry" id="usercCountry" 
+                                      list="countrySuqqeation"  placeholder="Country">
+                                      <details id="countrySuqqeation">
+                                      <option>Russia</option>
+                                      <option>China</option>
+                                      <option>Israel</option>
+                                      </details>
+                                  </label>
+                              </div>
+                              <div>
+                                  <label>
+                                      <span>Horse name</span>
+                                      <input type="text" name="hero" id="userHero" 
+                                      list="HeroSuqqeation"  placeholder="Hero">
+                                      <details id="HeroSuqqeation">
+                                      
+                                      </details>
+                                  </label>
+                              </div>
+                              <div>
+                                  <label>
+                                      <span>Ride Experience</span>
+                                      <input type="number" name="userRating" id="rating" 
+                                      min="1" max="60" step="1"  placeholder="Ride Experience">
+                                  </label>
+                              </div>
+                              <div>
+                                  <button class="btn" type="submit">Go</button>
+                              </div>
+                     </form>
+                   </div>       
          </section>
    </main>
 </body>

@@ -302,7 +302,8 @@ h1 {
    font-size: 15px;
    font-family: Philosopher;
 }
-.form {
+.wrapper {
+
    background-image: url(../img/forms.png);
    background-repeat: no-repeat;
    background-size: cover;
@@ -310,4 +311,56 @@ h1 {
    background-repeat: no-repeat;
    min-height: 600px;
    width: 100%;
+   
+}
+
+.form {
+   border: 1px solid #777;
+   border-radius: 2em;
+   width: 350px;
+   max-height: 600px;
+   margin: auto;
+   float: right;
+   color: white;
+   text-align: center;
+   margin-top: 7%;
+   margin-right: 100px;
+}
+
+h4 {
+   font-size: 22px;
+   font-family: fantasy;
+   text-align: center;
+}
+input {
+   font: 1em sans-serif;
+   width: 150px;
+   box-sizing: border-box;
+   border: 1px solid #777;
+}
+input:focus {
+   border-color: rgba(255, 255, 255, 0);
+}
+div {
+   padding: 0.2em;
+}
+select {
+   width: 150px;
+   box-sizing: border-box;
+   border: 1px solid #777;
+}
+ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+fieldset {
+   margin: 0.5em;
+   width: 200px;
+   margin-left: 15%;
+}
+label span {
+   width: 90px;
+   text-align: center;
+   display: inline-block;
 }
