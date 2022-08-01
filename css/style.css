@@ -365,12 +365,6 @@ label span {
    text-align: center;
    display: inline-block;
 }
-.footer {
+.blok-kart {
    background-image: url(../img/card.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   min-height: 600px;
-   width: 100%;
 }
