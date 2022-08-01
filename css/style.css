@@ -317,6 +317,7 @@ h1 {
 .form {
    border: 1px solid #777;
    border-radius: 2em;
+   border-color: white;
    width: 350px;
    max-height: 600px;
    margin: auto;
@@ -363,4 +364,13 @@ label span {
    width: 90px;
    text-align: center;
    display: inline-block;
+}
+.footer {
+   background-image: url(../img/card.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   min-height: 600px;
+   width: 100%;
 }
