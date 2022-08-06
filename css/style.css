@@ -254,11 +254,9 @@ h1 {
 .blok-visitor-img img {
    object-fit: cover;
    border-radius: 2px;
-   filter: brightness(0.5) grayscale(1);
    transition: 0.3s ease-in-out;
 }
 .blok-visitor-img img:hover {
-   filter: brightness(1) grayscale(0);
     transform: scale(1.1);
 }
 .blok-horses-wrapper {
@@ -283,16 +281,21 @@ h1 {
    height: 430px;
    left: 376px;
    box-shadow: 0px 14px 30px rgb(0, 0, 0, 0.07);
+   
 }
 .blok-horses-img {
    position: relative;
   width: 190px;
   height: 300px;
-  left: 6px;
+  left: 1px;
   top: -25px;
   border-radius: 5px;
   text-transform: capitalize;
- 
+   transition: 0.3s ease-in-out;
+}
+.blok-horses-img:hover {
+   transform: scale(1.1);
+   transition: 0.3s ease-in-out;
 }
 .blok-horses-text {
    margin: 0;
