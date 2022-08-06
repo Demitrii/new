@@ -175,6 +175,7 @@ h1 {
    display: flex;
    justify-content: center;
    width: 80%;
+   font-family: Philosopher;
 }
 .blok-direction-container {
   display: flex;
@@ -220,6 +221,10 @@ h1 {
 }
 .direction-text {
    text-align: center;
+   font-family: Philosopher;
+}
+.blok-direction-text {
+   font-family: Philosopher;
 }
 .club-btn {
    width: 100%;
@@ -479,4 +484,11 @@ ul a {
    height: 50px;
    padding-left: 70px;
    cursor: pointer;
+}
+@media screen and (max-width:600px) {
+   .choice-blok {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+   }
 }
