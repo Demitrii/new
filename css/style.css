@@ -192,7 +192,7 @@ h1 {
    height: 399px;
    left: 376px;
    box-shadow: 0px 14px 30px rgb(0, 0, 0, 0.07);
-  
+  text-align: center;
   
 }
 .blok-direction-icon-1 {
@@ -204,13 +204,12 @@ h1 {
    min-height: 450px;
    left: 376px;
    box-shadow: 0px 14px 30px rgb(0, 0, 0, 0.07);
-  
+  text-align: center;
 }
 .blok-direction-img {
   position: relative;
   width: 270px;
   height: 220px;
-  left: 14px;
   top: -25px;
   border-radius: 5px;
   text-transform: capitalize;
@@ -259,6 +258,7 @@ h1 {
 .blok-visitor-img img {
    object-fit: cover;
    border-radius: 2px;
+   min-height: 250px;
    transition: 0.3s ease-in-out;
 }
 .blok-visitor-img img:hover {
@@ -268,17 +268,18 @@ h1 {
    display: flex;
    flex-wrap: nowrap;
    justify-content: center;
+   gap: 15px;
 }
   
 
 .blok-horses-heading {
    text-align: center;
    width: 100%;
-   margin-top: 50px;
    font-family: Philosopher;
+   margin-top: 5%;
+   margin-bottom: 5%;
 }
 .blok-horses-icon {
-   margin: 50px;
    background-color: #FFFFFF;
    border: 1px solid #eaeaea;
    border-radius: 5px;
@@ -286,7 +287,9 @@ h1 {
    height: 430px;
    left: 376px;
    box-shadow: 0px 14px 30px rgb(0, 0, 0, 0.07);
-   
+   padding: 15px;
+   margin: auto;
+   text-align: center;
 }
 .blok-horses-img {
    position: relative;
