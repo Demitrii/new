@@ -127,6 +127,56 @@ h1 {
     background-color: white;
 }
 
+/****************** CARD ******************/
+
+.card {
+    background-color: white;
+    height: fit-content;
+    min-height: 300px;
+    padding: 10px;
+    text-align: center;
+    font-family: Philosopher;
+    width: calc(25% - 20px);
+    box-shadow: 0px 14px 30px rgb(0 0 0 / 7%);
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.card-bg {
+    position: relative;
+    top: -50px;
+}
+
+.card-caption {
+    margin: 20px auto;
+    font-size: 15pt;
+    font-weight: bolder;
+}
+
+.card-img {
+    max-width: 100%;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.card-img:hover {
+    transform: scale(1.1);
+}
+
+.card-text {
+    text-align: justify;
+}
+
+
+.blok-horses .card {
+    max-width: 300px;
+}
+
+
+
+
+
 .about-heading {
     text-align: center;
     font-size: 22px;
@@ -196,7 +246,7 @@ h1 {
 
 .blok-direction-heading {
     text-align: center;
-    margin-top: 50px;
+    margin: 50px auto;
     font-family: Philosopher;
 }
 .blok-direction-list {
@@ -209,7 +259,7 @@ h1 {
 .blok-direction-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    gap: 20px;
 }
 
 .blok-direction-icon {
@@ -308,40 +358,8 @@ h1 {
     margin-top: 5%;
     margin-bottom: 5%;
 }
-.blok-horses-icon {
-    background-color: #FFFFFF;
-    border: 1px solid #eaeaea;
-    border-radius: 5px;
-    width: 270px;
-    height: 430px;
-    left: 376px;
-    box-shadow: 0px 14px 30px rgb(0, 0, 0, 0.07);
-    padding: 15px;
-    margin: auto;
-    text-align: center;
-}
-.blok-horses-img {
-    position: relative;
-    width: 195px;
-    height: 300px;
-    margin: auto;
-    top: -25px;
-    border-radius: 5px;
-    text-transform: capitalize;
-    transition: 0.3s ease-in-out;
-}
-.blok-horses-img:hover {
-    transform: scale(1.1);
-    transition: 0.3s ease-in-out;
-}
-.blok-horses-text {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    align-content: center;
-    font-size: 15px;
-    font-family: Philosopher;
-}
+
+
 .wrapper {
 
     background-image: url(../img/forms.png);
